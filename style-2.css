@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(199, 195, 195);
+    background: #353535;
     /* background : url(2000.jpeg) no-repeat; */
     background-size: cover;
 }
@@ -19,14 +19,14 @@ body{
     box-shadow: 12px 1px 2px 1px black;
 }
 .inline-bar a{
-    font-size: 25px;
+    font-size: 23px;
     text-decoration: none;
     color : black;
     margin-left: 5%;
     margin-right: 5%;
     transition-duration: .5s;
     transform: rotate(360deg);
-    font-weight: 200;
+    font-weight: 400;
     position: relative;
 }
 .inline-bar a:hover{
