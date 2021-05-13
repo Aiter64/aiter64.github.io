@@ -8,7 +8,7 @@
 
 body{
     height: 100vh;
-    background: url(../img/2000.jpeg) no-repeat center;
+    background: url(2000.jpeg) no-repeat center;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@ body{
 }
 
 .card-head{
-    background: url(../img/t1.jpeg) no-repeat center;
+    background: url(t1.jpeg) no-repeat center;
     padding: 40px 60px ;
 }
 .pic{
@@ -101,7 +101,7 @@ body{
 }
 
 .card-footer{
-    background: url(../img/2000.jpeg);
+    background: url(2000.jpeg);
     padding: 60px 10px;
 }
 .numbers{
