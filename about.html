@@ -1,0 +1,211 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <div class="headerimg"></div>
+    <div class="body-nav">
+        <div class="inline-bar">
+            <a href="index.html" class="fab fa-" id="logofont">RakuRai☘️</a>
+            <a href="page.html" class="fab fa-">文章</a>
+            <a href="#" class="fab fa-">笔记</a>
+            <a href="#" class="fab fa-">故事</a>
+            <a href="about.html" class="fab fa-">关于</a>
+        </div>
+        </div>
+    
+    <div id="about" class="about">
+        <div class="head">
+            <h1 class="aboutme">About Me</h1>
+            <h3 class="hey">Hey, this is RakuRai.</h3>
+        </div>
+        <div class="body">
+            <div class="title">
+                <div class="hr"></div>
+                <i>冰冻三尺 非一日之寒</i><br>
+                <i>&nbsp 积土成山 非斯须之作</i>
+            </div>
+            <div class="resume">
+                <span>Hey，我是RakuRai(RR)，一只前端开发程序猿，现在惠州上学。</span><br><br><br>
+                <span id="resume2">业余爱好：玩游戏、偶尔健身、看看视频。</span><br><br><br>
+                <span id="resume3">这是我的利用<a href="https://github.com/Aiter64/aiter64.github.io" target="blank">GitHub Pages</a> 搭建的 个人博客。</span><br><br>
+                <span id="resume4">我在<a href="https://github.com/Aiter64/aiter64.github.io" target="blank">GitHub</a>主页👉<a href="https://www.bica.live" target="blank">RakuRaiRR 与 简书主页👉RR</a>。如果有什么问题，欢迎提出探讨~</span><br><br><br>
+            </div>
+            <div class="talks">
+                <h1>Talks</h1>
+                <ul>
+                    <li>
+                        <a href="https://github.com/Aiter64" target="blank">GitHub</a>
+                        <a href="http://www.bica.live" target="blank">Page</a>
+                        <a href="https://twitter.com/Aiter96" target="blank">Twitter</a>
+                        <a href="#" target="blank" onclick="alert('还没ok哦QwQ')">Other</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="prolive">
+                <h3>About me</h3>
+                <img src="images/1000.jpeg"><br>
+                <hr>
+                <span>Goals determine what you going to be!</span><br>
+                <hr>
+                <span>Email:2805364424@qq.com</span>
+                <hr>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<style scoped>
+
+.headerimg{
+    height: 20px;
+    background: url(images/header.png);
+    margin-bottom: -16px;
+    background-repeat: repeat-x;
+}
+.body-nav{
+    background-color: white;
+    /* background-image: url(sakura.png); */
+    width: 100%;
+    height: 35px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 12px 1px 0px 1px black;
+}
+.inline-bar a{
+    font-size: 23px;
+    text-decoration: none;
+    color : black;
+    margin-left: 5%;
+    margin-right: 5%;
+    transition-duration: .5s;
+    transform: rotate(360deg);
+    font-weight: 400;
+    position: relative;
+}
+.inline-bar a:hover{
+    color: black;
+    animation: first 1s;
+}
+.inline-bar a::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 6px;
+    background: coral;
+    bottom: 0;
+    left: 0;
+    border-radius: 8px;
+    z-index: -1;
+    transition: .3s linear;
+}
+.inline-bar a:hover::before{
+    width: 100%;
+}
+.about{
+    text-align: center;
+}
+body{
+    font-family: sans-serif;
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+.macwall{
+    
+    width: 100%;
+}
+.aboutme{
+    font-size: 60px;
+    color: white;
+    margin-top: -19px;
+    font-weight: 900;
+    position: relative;
+    top: 120px;
+}
+.hey{
+position: relative;
+top: 100px;
+font-size: 20px;
+color: white;
+font-weight: 400;
+}
+.head{
+    text-align: center;
+    background: url(images/macwall.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height: 400px;
+    background-size: 1800px;
+}
+.hr{
+    background: rgb(177, 175, 175);
+    width: 6px;
+    height: 50px;
+    color: black;
+    display: inline-flex;
+}
+.title{
+    display: block;
+    margin-left: -670px;
+}
+i{
+    position: relative;
+    top: -30px;
+    color: gray;
+}
+.resume span{
+    margin-left: -360px;
+    font-size: 16px;
+}
+#resume2{
+    margin-left: -505px;
+}
+#resume3{
+    margin-left: -480px;
+}
+#resume4{
+    margin-left: -230px;
+}
+.talks ul li a{
+    font-size: 20px;
+    display: block;
+    color: orange;
+    margin: 3px;
+    margin-left: 120px;
+    text-decoration: none;
+}
+.talks ul li a:hover{
+    color: black;
+    text-decoration: none;
+}
+.talks{
+    margin-left: -730px;
+}
+.prolive{
+    position: absolute;
+    left: 1100px;
+    top: 450px; 
+    width: 250px;
+    border-radius: 10px;
+}
+.prolive img{
+    border-radius: 10px;
+    width: 200px;
+}
+.prolive h3{
+    color: rgb(87, 85, 85);
+    margin-left: -40px;
+}
+.prolive span{
+    font-size: large;
+    color: grey;
+}
+</style>
